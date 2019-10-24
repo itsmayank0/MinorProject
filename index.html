@@ -70,7 +70,7 @@
                                                 <li><a href="#service">PRODUCTS & SERVICES</a></li>
                                                 <li><a href="#team">TEAM</a></li>
                                                 <li><a href="#">CONTACT</a></li>
-                                                <li><a href="#">LOG IN</a></li>
+                                                <li><a onclick="document.getElementById('id01').style.display='block'">LOG IN</a></li>
                                                 <li><a href="#">SIGN UP</a></li>
 
 
@@ -96,6 +96,35 @@
                     </div>
                 </div>
             </header> 
+            <!--This Is Pop Up Page Log in-->
+            <div id="id01" class="pop_up_model">
+  
+                    <form class="modal-content animate" action="/action_page.php">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <img src="Loginbg3.jpg" alt="Avatar" class="Loginbg3">
+                      </div>
+                  
+                      <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                        <button type="submit">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw"><a href="#">Forgot password?</a></span>
+                      </div>
+                    </form>
+                  </div>
+                  
             <!--End of header -->
             <section id="home" class="home">
                 <div class="overlay">
@@ -251,10 +280,8 @@
                                                                     <h3>COMPUTER'S On Rent</h3>
                                                                     <div class="separator"></div>
                                                                 </div>
-                                                                <p>Biking is about as ideal as a cardio exercise gets. 
-                                                                    It provides a low-impact workout that also builds strong legs and improves heart health.
-                                                                    anyone can do it...
-                                                                    If you want to bike outdoors but feel a bit unsteady, start with indoor cycling to help build some muscle strength to help stabilize you on a bike.</p>
+                                                                <p>Computer has become very important nowadays because it is very much accurate, fast and can accomplish many tasks easily.
+                                                                Computers can help businesses by making their staff efficient and productive and also save their valuable time in any business or office</p>
                                                                     <a href="" class="btn btn-primary">GET NOW</a>
                                                             </div>
                                                         </div>
@@ -274,58 +301,7 @@
                             </div>
                         </div>
                     </div>
-                
             </section>
-            <section id="features" class="features">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_features_area sections">
-                                <div class="head_title">
-                                    <h3>FEATURED PRODUCT'S</h3>
-                                    <div class="separator"></div>
-                                </div>
-                                <div class="row">
-                                    <div class="main_features_content">
-
-                                        <div class="col-sm-6">
-
-                                            <div class="single_features_slide">
-                                                <div class="single_ft_s_item">
-                                                    <img src="assets/images/slide1.jpg" alt="" />
-                                                </div>
-                                                <div class="single_ft_s_item">
-                                                    <img src="assets/images/slide2.jpg" alt="" />
-                                                </div>
-                                                <div class="single_ft_s_item">
-                                                    <img src="assets/images/slide3.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="single_features_text">
-                                                <h4>HAND WITH A WATCH</h4>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                                    when an unknown printer took a galley of type and scrambled </p>
-
-                                                <ul>
-                                                    <li><span>Client:</span> Dadit Lorm</li>
-                                                    <li><span>Deivered:</span> Sunday, 15 August, 2015</li>
-                                                    <li><span>Tags:</span> Hand, Watch, Black, Tree</li>
-                                                </ul>
-
-                                                <a href="" class="btn">LAUNCH NOW</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section id="about" class="about">
                 <div class="container">
                     <div class="row">
@@ -349,10 +325,9 @@
                                                     <div class="tab-content">
                                                         <div role="tabpanel" class="tab-pane active" id="mission">
                                                             <div class="single_about_tab">
-                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                                                    when an unknown printer took a galley type a scrambled it to make a type specimen book. 
-                                                                    It has survived not only five centuries,</p>
+                                                                <p>Our Vision is to provide a luxury to the people, who don't want to pay too much for his luxury.
+                                                                   Our products are design In such a way that it provide privillage to all.
+                                                                </p>
 
                                                                 <div class="row">
                                                                     <div class="col-sm-6">
@@ -372,10 +347,8 @@
                                                         </div>
                                                         <div role="tabpanel" class="tab-pane" id="goal">
                                                             <div class="single_about_tab">
-                                                                <p>222Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                                                    when an unknown printer took a galley type a scrambled it to make a type specimen book. 
-                                                                    It has survived not only five centuries,</p>
+                                                                <p>Our Vision is to provide a luxury to the people, who don't want to pay too much for his luxury.
+                                                                        Our products are design In such a way that it provide privillage to all.</p>
 
                                                                 <div class="row">
                                                                     <div class="col-sm-6">
@@ -436,8 +409,8 @@
                                                         <div class="skillbar-bar blue"></div>
                                                     </div>
 
-                                                    <div class="skillbar" data-percent="92%">
-                                                        <div class="skillbar-title"><h3 class="blue">WORDPRESS</h3><span class="sm-text">92%</span></div>
+                                                    <div class="skillbar" data-percent="95%">
+                                                        <div class="skillbar-title"><h3 class="blue">Django Backend</h3><span class="sm-text">92%</span></div>
                                                         <div class="skillbar-bar blue"></div>
                                                     </div>
                                                 </div>
@@ -513,98 +486,6 @@
             </section>  <!-- End of counter section -->
 
 
-            <section id="othersservice" class="othersservice">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="main_othersservice_area sections">
-                                <div class="row">
-                                    <div class="head_title">
-                                        <h3>OTHER SERVICES</h3>
-                                        <div class="separator"></div>
-                                    </div>
-
-                                    <div class="main_othersservice_content">
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="single_othersservice_icon">
-                                                    <h4><span><i class="fa fa-clock-o"></i></span> CREATIVE DESIGN</h4>
-                                                </div>
-                                                <div class="single_othersservice_content">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="fa fa-picture-o"></i></span> WEB DEVELOPMENT</h4>
-                                                </div>
-                                                <div class="single_othersservice_content">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="fa fa-television"></i></span> VIDEO EDITING</h4>
-                                                </div>
-                                                <div class="single_othersservice_content">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="fa fa-object-group"></i></span> MARKETING</h4>
-                                                </div>
-                                                <div class="single_othersservice_content">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="fa fa-object-group"></i></span> PHOTOGRAPHY</h4>
-                                                </div>
-                                                <div class="single_othersservice_content">
-
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <div class="single_othersservice">
-                                                <div class="s_ot_i_area">
-                                                    <div class="single_othersservice_icon">
-                                                        <h4><span><i class="fa fa-object-group"></i></span> LOGO DESIGN</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="single_othersservice_content">
-
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>            
-
-
-
-
             <section id="team" class="team">
                 <div class="container">
                     <div class="row">
@@ -612,7 +493,7 @@
                             <div class="main_team sections">
                                 <div class="row">
                                     <div class="head_title">
-                                        <h3>OTHER SERVICES</h3>
+                                        <h3>OOur Team</h3>
                                         <div class="separator"></div>
                                     </div>
                                     <div class="col-sm-3 col-xs-12">
@@ -621,8 +502,8 @@
                                                 <img src="assets/images/team1.jpg" alt="" />
                                             </div>
                                             <div class="single_team_text_overlay">
-                                                <h4>SEMF UCUK</h4>
-                                                <p>FOUNDER</p>
+                                                <h4>Mayank Dhakad</h4>
+                                                <p>Software ENGINEER</p>
                                                 <div class="team_overlay_socail">
                                                     <a href=""><i class="fa fa-facebook"></i></a>
                                                     <a href=""><i class="fa fa-twitter"></i></a>
@@ -639,7 +520,7 @@
                                                 <img src="assets/images/team2.jpg" alt="" />
                                             </div>
                                             <div class="single_team_text_overlay">
-                                                <h4>DIK ADALIN</h4>
+                                                <h4>Nitin Vishkarma</h4>
                                                 <p>ENGINEERING</p>
                                                 <div class="team_overlay_socail">
                                                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -657,7 +538,7 @@
                                                 <img src="assets/images/team3.jpg" alt="" />
                                             </div>
                                             <div class="single_team_text_overlay">
-                                                <h4>JENG KOL</h4>
+                                                <h4>Dheeraj Rana</h4>
                                                 <p>DESIGNER</p>
                                                 <div class="team_overlay_socail">
                                                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -675,8 +556,8 @@
                                                 <img src="assets/images/team4.jpg" alt="" />
                                             </div>
                                             <div class="single_team_text_overlay">
-                                                <h4>PET ROMAK</h4>
-                                                <p>MARKETING</p>
+                                                <h4>Dhreej Raikwar</h4>
+                                                <p>Backend DEVELOPER</p>
                                                 <div class="team_overlay_socail">
                                                     <a href=""><i class="fa fa-facebook"></i></a>
                                                     <a href=""><i class="fa fa-twitter"></i></a>
@@ -693,8 +574,8 @@
                     </div><!-- End of row -->
                 </div>
             </section>
-        <!--Video section-->
-            
+            <!--testimonial section-->
+
             <section id="testimonial" class="testimonial">
                 <div class="video_overlay">
                     <div class="container">
@@ -707,12 +588,11 @@
                                             <div class="row">
                                                 <div class="col-sm-8 col-sm-offset-2">
                                                     <i class="fa fa-quote-left"></i>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
-                                                        in some form, by injected humour, or randomised words which don't look even slightly believable. 
-                                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing 
-                                                        hidden in the middle of text. All the Lorem  ww</p>
+                                                    <p>The service that Rent Bazar Provide is enourmous and extremely good, happy to have that type of experience.
+                                                        I strongly suggest to use the service You also have a great experience.
+                                                    </p>
                                                     <div class="single_test_author">
-                                                        <h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
+                                                        <h4>Ajrun Kumar<span> -- FreeLancer </span></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -721,12 +601,11 @@
                                             <div class="row">
                                                 <div class="col-sm-8 col-sm-offset-2">
                                                     <i class="fa fa-quote-left"></i>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
-                                                        alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing 
-                                                        hidden in the middle of text. All the Lorem</p>
+                                                    <p>I used the services of many companies, But the service is provide by Rent Bazar is very good.
+                                                        I like the multiple optiop of a website.
+                                                    </p>
                                                     <div class="single_test_author">
-                                                        <h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
+                                                        <h4>Shidharth Patel<span> -- IT Proffessional</span></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -735,12 +614,11 @@
                                             <div class="row">
                                                 <div class="col-sm-8 col-sm-offset-2">
                                                     <i class="fa fa-quote-left"></i>
-                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have 
-                                                        suffered alteration in some form, by injected humour, or randomised words which don't look even 
-                                                        slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there 
-                                                        isn't anything embarrassing hidden in the middle of text. All the Lorem</p>
+                                                    <p>Thank God!! we are having a company like Rent Bazar, Which helps the students.
+                                                        I Had Lovely experience with Rent Bazar.
+                                                    </p>
                                                     <div class="single_test_author">
-                                                        <h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
+                                                        <h4>Ajay Yadav <span> -- Student</span></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -817,9 +695,8 @@
                                                 <div class="footer_logo">
                                                     <img src="assets/images/logo.png" alt="" />
                                                 </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                                    nisi ut aliquip ex ea commodo consequat. </p>
+                                                <p>Our Vision is to provide a luxury to the people, who don't want to pay too much for his luxury.
+                                                        Our products are design In such a way that it provide privillage to all.</p>
 
                                             </div>
                                         </div>
@@ -835,8 +712,7 @@
                                                     <li><a href="">Services</a></li>
                                                     <li><a href="">About Us</a></li>
                                                     <li><a href="">Our Team</a></li>
-                                                    <li><a href="">Portfolio</a></li>
-                                                </ul> 
+                                               </ul> 
                                             </div>
                                         </div>
 
@@ -848,10 +724,10 @@
                                                     <div class="separator"></div>
                                                 </div>
                                                 <ul>
-                                                    <li><a href="">January 2015</a></li>
-                                                    <li><a href="">February 2015</a></li>
-                                                    <li><a href="">March 2015</a></li>
-                                                    <li><a href="">April 2015</a></li>
+                                                    <li><a href="">January 2019</a></li>
+                                                    <li><a href="">February 2019</a></li>
+                                                    <li><a href="">March 2019</a></li>
+                                                    <li><a href="">April 2019</a></li>
                                                 </ul> 
                                             </div>
                                         </div>
@@ -961,6 +837,14 @@
                                                 };
                                                 var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
                                             }
+                                            var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
         </script>
 
         <script src="assets/js/plugins.js"></script>

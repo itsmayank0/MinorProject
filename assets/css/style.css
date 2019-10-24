@@ -743,27 +743,7 @@ input::-ms-input-placeholder {
     color:#444444;
     border:1px solid #ddd;
     font-size:0.8125rem;
-    padding-top: 0.8em;
 }
-
-
-/*video section css*/
-
-.video{
-    background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;
-}
-.video .main_video{
-    padding: 220px 0px 160px 0px;
-    overflow: hidden;
-}
-.video .icon{}
-.video .icon h3{
-    color:#fff;
-    margin-top:30px;
-    margin-bottom: 0px;
-}
-
 
 /*about section css*/
 .about{}
@@ -1288,8 +1268,20 @@ button.btn-md:hover {
     color:#FFF;
 }*/
 
-
-
+/*Log in pop up Css*/
+.pop_up_model{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
 
 /* Carousel */
 .testimonial{
